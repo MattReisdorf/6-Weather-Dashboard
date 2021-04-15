@@ -1,0 +1,22 @@
+body{
+    background-color: #a2a2a2;
+}
+
+.jumbotron{
+    background-image: url("./imgs/PageHeader.jpg");
+    background-size: cover;
+}
+
+.headerText{
+    border: #000 5px solid;
+    background-color: white;
+}
+
+.cardHeader, #inputButton{
+    background-color: white;
+    color: black;
+}
+
+.forecastCard{
+    background-color: #d1d1d1;
+}

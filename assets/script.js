@@ -152,7 +152,7 @@ function pathUpdate(){
             .then(function(data){
                 var currentUv = $('#currentUv');
                 currentUv.text(data.value);
-
+                console.log(currentUv.text(data.value));
                 if(data.value < 3){
                     currentUv.addClass('badge-success');
                 }
